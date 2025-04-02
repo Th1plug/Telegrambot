@@ -1,0 +1,14 @@
+app = "telegram-forwarder-anwar"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PYTHONUNBUFFERED = "true"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+  auto_start = true
+  auto_stop = false
+  min_machines_running = 1
