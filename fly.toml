@@ -1,4 +1,4 @@
-app = "telegram-forwarder"
+app = "telegram-forwarder777"
 
 [env]
   PORT = "8080"
