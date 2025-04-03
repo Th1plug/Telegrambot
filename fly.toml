@@ -1,7 +1,6 @@
-app = "telegram-bot-albumposter"
+app = "telegrambot777"
 
 [build]
-  dockerfile = "Dockerfile"
 
 [env]
   PORT = "8080"
