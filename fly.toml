@@ -1,8 +1,5 @@
 app = "telegram-forwarder"
 
-[build]
-  builder = "heroku/buildpacks:20"
-
 [env]
   PORT = "8080"
 
@@ -16,4 +13,4 @@ app = "telegram-forwarder"
 
   [[services.ports]]
     handlers = ["tls", "http"]
-    port = 443 
+    port = 443
